@@ -14,3 +14,6 @@ import pandas as pd
 
 #first read data
 data = pd.read_csv('D:/Kaggle/FifaDataset/FIFA 2018 Statistics.csv')
+
+import pytest as pt
+pytest --version
