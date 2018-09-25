@@ -14,3 +14,5 @@ import pandas as pd
 
 #first read data
 data = pd.read_csv('D:/Kaggle/FifaDataset/FIFA 2018 Statistics.csv')
+
+feature_names = [i for i in data.columns if data[i].dtype in [np.int64, np.int64]]
