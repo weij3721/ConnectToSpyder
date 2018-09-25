@@ -6,9 +6,11 @@ Created on Tue Sep 25 22:54:29 2018
 """
 
 #my first python unit test
-def func(x):
-    return("Remko2")
+
+def calculator_add(x,y):
+    z = x + y
+    return z
     
 def test_answer():
-    assert func("abc") == "Remko2"
+    assert calculator_add(1,2) == 4
     
