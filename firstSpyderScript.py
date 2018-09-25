@@ -9,11 +9,13 @@ textToPrint = "Remko"
 print (textToPrint)
 
 #try to add some machine learning to this
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 
 #first read data
-data = pd.read_csv('D:/Kaggle/FifaDataset/FIFA 2018 Statistics.csv')
+#data = pd.read_csv('D:/Kaggle/FifaDataset/FIFA 2018 Statistics.csv')
 
-import pytest as pt
-pytest --version
+def calculator_add(x,y):
+    z = x + y
+    return z
+
